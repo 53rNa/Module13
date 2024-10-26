@@ -13,7 +13,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 logging.basicConfig(level=logging.INFO)
 
 # Создаем экземпляр бота с API-токеном и диспетчера
-api = '7933847033:AAGwNQzC9IusxY1cIe0svYwfzevGXLMtFMQ'
+api = ''
 bot = Bot(token = api)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
